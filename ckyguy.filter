@@ -1,0 +1,254 @@
+#Curreny-------------------------------------------------------------------------------
+Show # S-Tier Currency (currency)
+  Class == "Stackable Currency"
+  BaseType == "Mirror of Kalandra" "Hinekora's Lock" "Orb of Alchemy"
+  PlayEffect Purple
+  MinimapIcon 1 Purple Cross
+  SetBorderColor 79 0 122 255
+  SetFontSize 45
+  PlayEffect Purple 
+
+Show # A-Tier Currency (currency)
+   Class "Stackable Currency"
+   BaseType "Perfect Chaos Orb" "Perfect Exalted Orb" "Perfect Regal Orb" "Divine Orb"  "Albino Rhoa Feather"
+   MinimapIcon 2 Red Cross 
+   SetBorderColor 163 34 34
+   SetFontSize 36
+   PlayEffect Red 
+
+Show # B-Tier Currency (currency)
+  Class == "Stackable Currency"
+  BaseType == "Greater Chaos Orb" "Orb of Chance" "Chance Shard" "Greater Exalted Orb" "Greater Regal Orb"
+  MinimapIcon 2 Orange Cross  
+  SetBorderColor 214 125 15
+  SetFontSize 28
+  PlayEffect Orange 
+
+Show # C-Tier Currency (currency)
+  Class == "Stackable Currency"
+  BaseType == "Chaos Orb" "Orb of Alchemy" "Perfect Orb of Transmutation" "Exalted Orb" "Perfect Orb of Augmentation" "Gemcutter's Prism" "Glassblower's Bauble"
+  MinimapIcon 2 Yellow Cross 
+  SetBorderColor 150 146 23
+  SetFontSize 26
+  PlayEffect Yellow 
+
+Show # D-Tier Currency (currency)  
+  Class == "Stackable Currency"
+  BaseType == "Orb of Transmutation" "Greater Orb of Transmutation" "Orb of Augmentation" "Greater Orb of Augmentation" 
+  SetBorderColor 0 5 250 255
+ 
+
+Show #TEST
+  Class == "Stackable Currency"
+  BaseType == "Scroll of Wisdom"
+  PlayEffect Cyan
+  SetTextColor 22 197 110 240
+  SetBorderColor 71 27 162 255
+  #SetBackgroundColor 27 162 155 134
+  SetFontSize 40
+
+
+
+#Maybe Breach?
+#SetBackgroundColor 60 20 80 255    # soft purple
+#SetBorderColor 180 40 180 255    
+
+
+
+#Sockatable-------------------------------------------------------------------------------
+Show
+  Class == "Socketable"
+  BaseType == "Hayoxi's Soul Core of Heatproofing" "Zalatl's Soul Core of Insulation" "Topotante's Soul Core of Dampening" "Atmohua's Soul Core of Retreat" "Quipolatl's Soul Core of Flow" "Tzamoto's Soul Core of Ferocity" "Uromoti's Soul Core of Attenuation" "Opiloti's Soul Core of Assault" "Guatelitzi's Soul Core of Endurance" "Xopec's Soul Core of Power" "Estazunti's Soul Core of Convalescence" "Tacati's Soul Core of Affliction" "Cholotl's Soul Core of War" "Citaqualotl's Soul Core of Foulness" "Xipocado's Soul Core of Dominion" "Soul Core of Tacati" "Soul Core of Opiloti" "Soul Core of Jiquani" "Soul Core of Zalatl" "Soul Core of Citaqualotl" "Soul Core of Puhuarte" "Soul Core of Tzamoto" "Soul Core of Xopec" "Soul Core of Azcapa" "Soul Core of Topotante" "Soul Core of Quipolatl" "Soul Core of Ticaba" "Soul Core of Atmohua" "Soul Core of Cholotl" "Soul Core of Zantipi"
+  PlayEffect Pink
+  MinimapIcon 2 Pink Diamond
+  SetTextColor 158 27 162 255
+
+Show
+  Class == "Socketable"
+  BaseType == "Hedgewitch Assandra's Rune of Wisdom" "Saqawal's Rune of the Sky" "Fenumus' Rune of Agony" "Farrul's Rune of Grace" "Farrul's Rune of the Chase" "Craiceann's Rune of Warding" "Saqawal's Rune of Memory" "Saqawal's Rune of Erosion" "Farrul's Rune of the Hunt" "Craiceann's Rune of Recovery" "Courtesan Mannan's Rune of Cruelty" "Thane Grannell's Rune of Mastery" "Fenumus' Rune of Spinning" "Countess Seske's Rune of Archery" "Thane Girt's Rune of Wildness" "Fenumus' Rune of Draining" "Thane Myrk's Rune of Summer" "Lady Hestra's Rune of Winter" "Thane Leld's Rune of Spring" "The Greatwolf's Rune of Claws" "The Greatwolf's Rune of Willpower"
+SetBackgroundColor 40 14 75 255
+SetBorderColor 120 27 162 255
+
+Show
+  Class == "Socketable"
+  BaseType == "Desert Rune" "Glacial Rune" "Storm Rune" "Iron Rune" "Body Rune" "Mind Rune" "Rebirth Rune" "Inspiration Rune" "Stone Rune" "Vision Rune" "Lesser Desert Rune" "Lesser Glacial Rune" "Lesser Storm Rune" "Lesser Iron Rune" "Lesser Body Rune" "Lesser Mind Rune" "Lesser Rebirth Rune" "Lesser Inspiration Rune" "Lesser Stone Rune" "Lesser Vision Rune" "Greater Desert Rune" "Greater Glacial Rune" "Greater Storm Rune" "Greater Iron Rune" "Greater Body Rune" "Greater Mind Rune" "Greater Rebirth Rune" "Greater Inspiration Rune" "Greater Stone Rune" "Greater Vision Rune" "Lesser Robust Rune" "Robust Rune" "Greater Robust Rune" "Lesser Adept Rune" "Adept Rune" "Greater Adept Rune" "Lesser Resolve Rune" "Resolve Rune" "Greater Resolve Rune" "Greater Rune of Leadership" "Greater Rune of Tithing" "Greater Rune of Alacrity" "Greater Rune of Nobility"
+  SetBackgroundColor 14 57 75 255
+  SetBorderColor 27 122 162 255
+
+Show 
+  Class == "Socketable"
+  BaseType == "Talisman of Sirrius" "Talisman of Thruldana" "Talisman of Grold" "Talisman of Eeshta" "Talisman of Egrin" "Talisman of Maxarius" "Talisman of Ralakesh" "Serpent Talisman" "Primate Talisman" "Owl Talisman" "Cat Talisman" "Wolf Talisman" "Stag Talisman" "Boar Talisman" "Bear Talisman" "Ox Talisman" "Rabbit Talisman" "Fox Talisman"
+SetBackgroundColor 50 30 10 255
+SetBorderColor 130 80 40 255   
+
+
+#Uncut Gems-------------------------------------------------------------------------------
+Show #
+  Class == "Uncut Skill Gems"
+  BaseType == "Uncut Skill Gem (Level 20)"
+  PlayEffect Cyan
+  MinimapIcon 1 Cyan Star
+  SetTextColor 0 153 149 255
+  SetBorderColor 0 153 149 255
+  SetFontSize 45
+Show #
+  Class == "Uncut Spirit Gems"
+  BaseType == "Uncut Spirit Gem (Level 20)"
+  PlayEffect Cyan
+  MinimapIcon 1 Cyan Star
+  SetTextColor 0 153 149 255
+  SetBorderColor 0 153 149 255
+  SetFontSize 45
+Show #
+  Class == "Uncut Skill Gems"
+  BaseType == "Uncut Skill Gem (Level 1)" "Uncut Skill Gem (Level 2)" "Uncut Skill Gem (Level 3)" "Uncut Skill Gem (Level 4)" "Uncut Skill Gem (Level 5)" "Uncut Skill Gem (Level 6)" "Uncut Skill Gem (Level 7)" "Uncut Skill Gem (Level 8)" "Uncut Skill Gem (Level 9)" "Uncut Skill Gem (Level 10)" "Uncut Skill Gem (Level 11)" "Uncut Skill Gem (Level 12)" "Uncut Skill Gem (Level 13)" "Uncut Skill Gem (Level 14)" "Uncut Skill Gem (Level 15)" "Uncut Skill Gem (Level 16)" "Uncut Skill Gem (Level 17)" "Uncut Skill Gem (Level 18)" "Uncut Skill Gem (Level 19)"
+  SetTextColor 0 153 149 255
+  SetFontSize 28
+Show #
+  Class == "Uncut Spirit Gems"
+  BaseType == "Uncut Spirit Gem (Level 4)" "Uncut Spirit Gem (Level 5)" "Uncut Spirit Gem (Level 6)" "Uncut Spirit Gem (Level 7)" "Uncut Spirit Gem (Level 8)" "Uncut Spirit Gem (Level 9)" "Uncut Spirit Gem (Level 10)" "Uncut Spirit Gem (Level 11)" "Uncut Spirit Gem (Level 12)" "Uncut Spirit Gem (Level 13)" "Uncut Spirit Gem (Level 14)" "Uncut Spirit Gem (Level 15)" "Uncut Spirit Gem (Level 16)" "Uncut Spirit Gem (Level 17)" "Uncut Spirit Gem (Level 18)" "Uncut Spirit Gem (Level 19)"
+  SetTextColor 0 153 149 255
+  SetFontSize 28
+Show # A-Tier Uncut Support Gems (currency)
+  Class == "Uncut Support Gems"
+  BaseType == "Uncut Support Gem (Level 1)" "Uncut Support Gem (Level 2)" "Uncut Support Gem (Level 3)" "Uncut Support Gem (Level 4)" "Uncut Support Gem (Level 5)"
+  SetTextColor 0 153 149 255
+  SetFontSize 28
+
+
+#Essences-------------------------------------------------------------------------------
+Show # Corrupted Esseses
+  Class == "Stackable Currency"
+  BaseType == "Essence of Hysteria" "Essence of Delirium" "Essence of Horror" "Essence of the Abyss" "Essence of Opulence"
+  PlayEffect Cyan
+  SetTextColor 22 197 110 240
+  SetBorderColor 71 27 162 255
+  SetFontSize 40
+Show # Perfect Essence
+  Class == "Stackable Currency"
+  BaseType == "Perfect Essence of the Body" "Perfect Essence of the Mind" "Perfect Essence of Enhancement" "Perfect Essence of Abrasion" "Perfect Essence of Flames" "Perfect Essence of Ice" "Perfect Essence of Electricity" "Perfect Essence of Ruin" "Perfect Essence of Battle" "Perfect Essence of Sorcery" "Perfect Essence of Haste" "Perfect Essence of the Infinite" "Perfect Essence of Seeking" "Perfect Essence of Insulation" "Perfect Essence of Thawing" "Perfect Essence of Grounding" "Perfect Essence of Alacrity" "Perfect Essence of Opulence" "Perfect Essence of Command"
+  SetTextColor 22 197 110 240
+  SetBorderColor 22 197 110 240  
+  PlayEffect White
+  SetFontSize 36
+Show # Greater Essence
+  Class == "Stackable Currency"
+  BaseType == "Greater Essence of the Body" "Greater Essence of the Mind" "Greater Essence of Enhancement" "Greater Essence of Abrasion" "Greater Essence of Flames" "Greater Essence of Ice" "Greater Essence of Electricity" "Greater Essence of Ruin" "Greater Essence of Battle" "Greater Essence of Sorcery" "Greater Essence of Haste" "Greater Essence of the Infinite" "Greater Essence of Seeking" "Greater Essence of Insulation" "Greater Essence of Thawing" "Greater Essence of Grounding" "Greater Essence of Alacrity" "Greater Essence of Opulence" "Greater Essence of Command"
+  SetTextColor 22 197 110 240
+  SetFontSize 32
+Show # Essence
+  Class == "Stackable Currency"
+  BaseType == "Essence of the Body" "Essence of the Mind" "Essence of Enhancement" "Essence of Abrasion" "Essence of Flames" "Essence of Ice" "Essence of Electricity" "Essence of Ruin" "Essence of Battle" "Essence of Sorcery" "Essence of Haste" "Essence of the Infinite" "Essence of Seeking" "Essence of Insanity" "Essence of Insulation" "Essence of Thawing" "Essence of Grounding" "Essence of Alacrity" "Essence of Command"
+  SetTextColor 22 197 110 240
+  SetFontSize 30
+Show # F-Tier Essences (currency)
+  Class == "Stackable Currency"
+  BaseType == "Lesser Essence of the Body" "Lesser Essence of the Mind" "Lesser Essence of Enhancement" "Lesser Essence of Abrasion" "Lesser Essence of Flames" "Lesser Essence of Ice" "Lesser Essence of Electricity" "Lesser Essence of Ruin" "Lesser Essence of Battle" "Lesser Essence of Sorcery" "Lesser Essence of Haste" "Lesser Essence of the Infinite" "Lesser Essence of Seeking" "Lesser Essence of Insulation" "Lesser Essence of Thawing" "Lesser Essence of Grounding" "Lesser Essence of Alacrity" "Lesser Essence of Opulence" "Lesser Essence of Command"
+  SetTextColor 22 197 110 240
+  SetFontSize 28
+
+#Omen-------------------------------------------------------------------------------
+Show #
+  Class == "Omen"
+  BaseType == "Omen of Refreshment" "Omen of Resurgence" "Omen of Amelioration" "Omen of Whittling" "Omen of Sinistral Erasure" "Omen of Dextral Erasure" "Omen of Corruption" "Omen of Greater Exaltation" "Omen of Sinistral Exaltation" "Omen of Dextral Exaltation" "Omen of Sinistral Annulment" "Omen of Dextral Annulment" "Omen of Answered Prayers" "Omen of Secret Compartments" "Omen of the Hunt" "Omen of Reinforcements" "Omen of Homogenising Exaltation" "Omen of Homogenising Coronation" "Omen of Gambling" "Omen of Bartering" "Omen of Recombination" "Omen of the Blessed" "Omen of Chaotic Rarity" "Omen of Chaotic Quantity" "Omen of Chaotic Monsters" "Omen of Chance" "Omen of the Ancients" "Omen of Sanctification" "Omen of Dextral Crystallisation" "Omen of Sinistral Crystallisation" "Omen of Catalysing Exaltation"
+  SetTextColor 118 63 0 255
+  SetFontSize 32
+
+#Trial Coins-------------------------------------------------------------------------------
+Show # D-Tier 
+  Class == "Trial Coins"
+  BaseType == "Djinn Barya"
+  SetBorderColor 255 119 0 255
+
+Show # D-Tier
+  Class == "Inscribed Ultimatum"
+  BaseType == "Inscribed Ultimatum"
+  SetBorderColor 255 119 0 255
+
+#Delerium---------------------------------------------------------------------------------
+Show # Concentrated Liquid
+  Class == "Stackable Currency"
+  BaseType == "Concentrated Liquid Fear" "Concentrated Liquid Suffering" "Concentrated Liquid Isolation"
+Show #  Liquid
+  Class == "Stackable Currency"
+  BaseType == "Liquid Paranoia" "Liquid Envy" "Liquid Disgust" "Liquid Despair"
+Show # Diluted Liquid
+  Class == "Stackable Currency"
+  BaseType == "Diluted Liquid Ire" "Diluted Liquid Guilt" "Diluted Liquid Greed"
+
+
+#Other Cases
+Show 
+  Class == "Stackable Currency"
+  BaseType == "Orb of Annulment" "Fracturing Orb"
+  PlayEffect White
+  MinimapIcon 2 White Circle
+  SetFontSize 28
+  SetTextColor 30 26 17 255
+  SetBackgroundColor 255 255 255 200
+  #SetBorderColor 255 255 255 255
+
+Show 
+  Class == "Stackable Currency"
+  BaseType == "Lesser Jeweller's Orb"
+  #SetTextColor 255 255 255 255
+  SetBackgroundColor 27 162 155 134
+  SetBorderColor 27 162 155 255
+  SetFontSize 26
+
+Show 
+  Class == "Stackable Currency"
+  BaseType == "Greater Jeweller's Orb"
+  #SetTextColor 255 255 255 255
+  SetBackgroundColor 27 162 155 134
+  SetBorderColor 27 162 155 255
+  SetFontSize 30
+
+Show 
+  Class == "Stackable Currency"
+  BaseType == "Perfect Jeweller's Orb"
+  #SetTextColor 255 255 255 255
+  SetBackgroundColor 27 162 155 134
+  SetBorderColor 27 162 155 255
+  MinimapIcon 1 Cyan Star
+  PlayEffect Cyan
+  SetFontSize 36
+
+Show 
+  Class == "Stackable Currency"
+  BaseType == "Vaal Orb"
+  SetFontSize 26
+  SetBackgroundColor 61 0 0 255
+  SetBorderColor 153 0 0 255
+
+Show
+ Class == "Stackable Currency"
+  BaseType == "Arcanist's Etcher" "Blacksmith's Whetstone" "Armourer's Scrap" "Artificer's Orb" "Artificer's Shard"
+  #SetTextColor 30 26 17 255
+  #SetBackgroundColor 126 122 122 242
+  SetBorderColor 255 255 255 255
+
+Show 
+  Class == "Stackable Currency"
+  BaseType == "Gnawed Jawbone" "Preserved Jawbone" "Gnawed Rib" "Preserved Rib" "Preserved Collarbone" "Preserved Vertebrae"
+  SetTextColor 159 197 22 240
+Show
+  Class == "Omen"
+  BaseType == "Omen of the Sovereign" "Omen of the Liege" "Omen of the Blackblooded" "Omen of Putrefaction" "Omen of Dextral Necromancy"
+  SetTextColor 159 197 22 240
+
+Show
+  Class == "Stackable Currency"
+  BaseType == "Ancient Jawbone" "Ancient Rib" "Ancient Collarbone" "Preserved Cranium"
+  PlayEffect Green
+  MinimapIcon 2 Green Kite
+  SetTextColor 159 197 22 240
+  SetFontSize 36
+Show
+  Class == "Omen"
+  BaseType == "Omen of Abyssal Echoes" "Omen of Light" "Omen of Sinistral Necromancy"
+  PlayEffect Green
+  MinimapIcon 2 Green Kite
+  SetTextColor 159 197 22 240
+  SetFontSize 36
+
