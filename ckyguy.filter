@@ -1,18 +1,20 @@
 #Curreny-------------------------------------------------------------------------------
 Show # S-Tier Currency (currency)
   Class == "Stackable Currency"
-  BaseType == "Mirror of Kalandra" "Hinekora's Lock" "Orb of Alchemy"
-  PlayEffect Purple
-  MinimapIcon 1 Purple Cross
-  SetBorderColor 79 0 122 255
+  BaseType == "Mirror of Kalandra" "Hinekora's Lock"
+  PlayEffect Cyan
+  MinimapIcon 1 Cyan Star
+  SetBackgroundColor 245 240 225 255
+  SetBorderColor 18 122 117 255
+  SetTextColor 18 122 117 255
   SetFontSize 45
-  PlayEffect Purple 
+
 
 Show # A-Tier Currency (currency)
    Class "Stackable Currency"
    BaseType "Perfect Chaos Orb" "Perfect Exalted Orb" "Perfect Regal Orb" "Divine Orb"  "Albino Rhoa Feather"
    MinimapIcon 2 Red Cross 
-   SetBorderColor 163 34 34
+   SetTextColor 230 40 40 255 
    SetFontSize 36
    PlayEffect Red 
 
@@ -20,40 +22,23 @@ Show # B-Tier Currency (currency)
   Class == "Stackable Currency"
   BaseType == "Greater Chaos Orb" "Orb of Chance" "Chance Shard" "Greater Exalted Orb" "Greater Regal Orb"
   MinimapIcon 2 Orange Cross  
-  SetBorderColor 214 125 15
+  SetTextColor 240 140 80 255
   SetFontSize 28
   PlayEffect Orange 
 
 Show # C-Tier Currency (currency)
   Class == "Stackable Currency"
-  BaseType == "Chaos Orb" "Orb of Alchemy" "Perfect Orb of Transmutation" "Exalted Orb" "Perfect Orb of Augmentation" "Gemcutter's Prism" "Glassblower's Bauble"
+  BaseType == "Chaos Orb" "Orb of Alchemy" "Perfect Orb of Transmutation" "Exalted Orb" "Perfect Orb of Augmentation" "Gemcutter's Prism" "Glassblower's Bauble" "Regal Orb" "Orb of Alchemy"
   MinimapIcon 2 Yellow Cross 
-  SetBorderColor 150 146 23
+  SetTextColor 255 245 180 255 
   SetFontSize 26
   PlayEffect Yellow 
 
 Show # D-Tier Currency (currency)  
   Class == "Stackable Currency"
   BaseType == "Orb of Transmutation" "Greater Orb of Transmutation" "Orb of Augmentation" "Greater Orb of Augmentation" 
-  SetBorderColor 0 5 250 255
+  SetTextColor 120 180 220 255
  
-
-Show #TEST
-  Class == "Stackable Currency"
-  BaseType == "Scroll of Wisdom"
-  PlayEffect Cyan
-  SetTextColor 22 197 110 240
-  SetBorderColor 71 27 162 255
-  #SetBackgroundColor 27 162 155 134
-  SetFontSize 40
-
-
-
-#Maybe Breach?
-#SetBackgroundColor 60 20 80 255    # soft purple
-#SetBorderColor 180 40 180 255    
-
-
 
 #Sockatable-------------------------------------------------------------------------------
 Show
@@ -169,15 +154,35 @@ Show # D-Tier
 Show # Concentrated Liquid
   Class == "Stackable Currency"
   BaseType == "Concentrated Liquid Fear" "Concentrated Liquid Suffering" "Concentrated Liquid Isolation"
+  PlayEffect Pink
+  SetBorderColor 135 17 95 240
+  SetTextColor 135 17 95 240
+  SetFontSize 36
 Show #  Liquid
   Class == "Stackable Currency"
   BaseType == "Liquid Paranoia" "Liquid Envy" "Liquid Disgust" "Liquid Despair"
+  SetBorderColor 135 17 95 240
+  SetTextColor 135 17 95 240
+  SetFontSize 32
 Show # Diluted Liquid
   Class == "Stackable Currency"
   BaseType == "Diluted Liquid Ire" "Diluted Liquid Guilt" "Diluted Liquid Greed"
+  SetTextColor 135 17 95 240
+  SetFontSize 28
 
-
-#Other Cases
+#Breach-----------------------------------------------------------------------------
+Show # Catalyst
+  Class == "Stackable Currency"
+  BaseType == "Flesh Catalyst" "Neural Catalyst" "Carapace Catalyst" "Uul-Netol's Catalyst" "Xoph's Catalyst" "Tul's Catalyst" "Esh's Catalyst" "Chayula's Catalyst" "Reaver Catalyst" "Sibilant Catalyst" "Skittering Catalyst" "Adaptive Catalyst"
+  PlayEffect Pink
+  SetTextColor 180 40 180 255 
+Show # Large Stacks of D-Tier Breach (currency-large-stacks)
+  StackSize >= 10
+  Class == "Stackable Currency"
+  BaseType == "Breach Splinter"
+  SetTextColor 180 40 180 255 
+  
+#Other Cases----------------------------------------------------------------
 Show 
   Class == "Stackable Currency"
   BaseType == "Orb of Annulment" "Fracturing Orb"
@@ -224,9 +229,9 @@ Show
 Show
  Class == "Stackable Currency"
   BaseType == "Arcanist's Etcher" "Blacksmith's Whetstone" "Armourer's Scrap" "Artificer's Orb" "Artificer's Shard"
-  #SetTextColor 30 26 17 255
+  SetTextColor 255 255 255 255
   #SetBackgroundColor 126 122 122 242
-  SetBorderColor 255 255 255 255
+  #SetBorderColor 255 255 255 255
 
 Show 
   Class == "Stackable Currency"
